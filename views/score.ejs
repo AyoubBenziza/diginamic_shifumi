@@ -1,0 +1,25 @@
+<%- include("_header") %>
+
+<body>
+  <h1>Score</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Win</th>
+        <th>Lose</th>
+        <th>Tie</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><%= score.win %></td>
+        <td><%= score.lose %></td>
+        <td><%= score.tie %></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+<%- include("_footer") %>
